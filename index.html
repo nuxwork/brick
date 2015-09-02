@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="./style/style.css" rel="stylesheet" media="screen">
+	<script src="./script/jquery-2.1.4.min.js" type="text/javascript"></script>
+	<script src="./script/config.js" type="text/javascript"></script>
+	<script src="./script/base.js" type="text/javascript"></script>
+	<script src="./script/index.js" type="text/javascript"></script>
+	<title>玻璃拼镜</title>
+</head>
+<body onload="init();">
+	
+		<div id="header">
+			<div id="model_info">
+				<span>宽度：300 mm</span><br>
+				<span>高度：300 mm</span><br>
+				<span>缩放：1</span><br>
+			</div>
+			<div id="models"></div>
+		</div>
+		<div id="content">
+			<div id="aside">
+				输入背景尺寸<br>
+				宽度：<input id="id_wall_width"  type="text"  style="width:80px" value="3000" />mm<br>
+				高度：<input id="id_wall_height" type="text"  style="width:80px" value="1166" />mm<br>
+				<br><br>
+				输入需要裁剪的尺寸<br>
+				宽度：<input id="id_trim_width" type="text"  style="width:80px" />mm<br>
+				高度：<input id="id_trim_height" type="text"  style="width:80px" />mm<br>
+				<br><br>
+				显示尺寸<input type="checkbox" /><br>
+				<br><br>
+				偏移<br>
+				宽度：<input id="id_offset_width"  type="text" style="width:80px" />mm<br>
+				高度：<input id="id_offset_height" type="text"  style="width:80px" />mm<br>
+				<br><br>
+				偏移<br>
+				宽度：<input id="id_mouse_width"  type="text" style="width:80px" />mm<br>
+				高度：<input id="id_mouse_height" type="text"  style="width:80px" />mm<br>
+				<br><br>
+				<button type="button" onclick="calc()">计算</button>
+			</div>
+			<div id="container">
+				<canvas id="gallery"/>
+			</div>
+		</div>
+	
+</body>
+</html>

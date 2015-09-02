@@ -1,0 +1,46 @@
+body{
+	width:100%; height: auto;
+    margin:0 auto; /*设置整个容器在浏览器中水平居中*/
+    background:#123123;
+}
+
+div#container{
+	width:100%;
+    margin:0 auto; /*设置整个容器在浏览器中水平居中*/
+    background:#CF3;
+}
+
+div#header{
+	width: auto; height: 90px; background-color: #314359; padding: 0px; margin:0 auto;
+}
+
+div#model_info{
+	width: 20%; height: 100%; margin:0 auto; float:left;
+}
+
+div#models{
+	width: 70%; height: 100%; margin:0 auto; float:left;
+}
+
+div#content{
+	width: 100%; height: 550px; background-color: #ff0000; padding: 0px; margin:0 auto; margin-top:10px;
+}
+
+div#aside{
+	width: 13%; height: 100%; background-color: #00ff00; padding: 0px; margin:0 auto;   float:left;
+}
+
+div#container{
+	width: 83%; height: 90%; background-color: #ff00ff;  padding: 0px; margin:0; font-size: 0;
+	float:left; text-align: center;
+	font-size:0; padding: 2%;
+}
+
+canvas#gallery{
+	width: 100%; height: 100%; background-color: #332f5f; font-size: 0;
+	margin: auto auto;
+}
+
+img.model{
+	width: 70px; height:70px; margin-top: 10px; margin-left: 10px;
+}
